@@ -1,0 +1,60 @@
+@media screen and (max-width: 767px) {
+    #banner {
+        height: auto;
+    }
+    /* căn chỉnh hình ảnh theo tỷ lệ màn hình */
+    .img-banner {
+        height: auto;
+        width: auto;
+    }
+    /* .text-banner {
+        position: absolute;
+        top: 40%;
+        left: 220%;
+        transform: translate(-50%, -20%);
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+    } */
+    /* Ẩn hình ảnh cá nhân khi về màn hình mobile */
+    .navbar-image {
+        display: none;
+    }
+    .navbar-items {
+        display: block;
+        text-align: left;
+        text-decoration: none;
+        padding: 10px 12px;
+    }
+    /* Sắp xếp nội dung thành 1 cột khi sang Mobile */
+    .profile {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: start;
+        align-items: center;
+        padding: 40px;
+        float: left;
+        column-gap: 10px;
+    }
+    .target {
+        align-items: center;
+        padding-left: 10px;
+        column-gap: 5px;
+        padding-right: 10px;
+    }
+    .sub-container1 {
+        display: inline-grid;
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+        row-gap: 20px;
+        justify-content: flex-start;
+    }
+    .project-info {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /* Ẩn thông tin cá nhân */
+    .Information {
+        visibility: hidden;
+    }
+}
